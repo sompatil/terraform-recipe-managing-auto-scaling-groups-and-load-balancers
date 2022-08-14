@@ -85,7 +85,7 @@ resource "aws_security_group" "allow_http" {
 resource "aws_launch_configuration" "web" {
   name_prefix = "web-"
 
-  image_id = "ami-0947d2ba12ee1ff75" # Amazon Linux 2 AMI (HVM), SSD Volume Type
+  image_id = "ami-090fa75af13c156b4" # Amazon Linux 2 AMI (HVM), SSD Volume Type
   instance_type = "t2.micro"
   key_name = "Lenovo T410"
 
